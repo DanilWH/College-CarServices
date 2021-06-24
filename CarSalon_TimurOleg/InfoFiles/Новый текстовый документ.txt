@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+   <head>
+      <title>Летняя практика 2021</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="../Sexstyle.css">
+      <script src="core.js"></script>
+   </head>
+   <body>
+      <div class="header">
+         <h1>Отчет по практике</h1>
+         <p>Зайдуллин Тимур ИС-21 (3 курс)</p>
+      </div>
+      <div class="navbar">
+         <a href="../index.html">На главную</a>
+		 <div class="dropdown">
+            <button class="dropbtn" onclick="dropsprFunction()">Летняя практика 2021</button>
+            <div class="dropdown-content" id="dropkontent">
+               <a href="#" class="active">1 Неделя</a>
+            </div>
+         </div>
+	  	 <a href="http://88.205.135.82:7071/groups/is21/" class="right">На сайт группы</a>
+      </div>
+      <div class="main">
