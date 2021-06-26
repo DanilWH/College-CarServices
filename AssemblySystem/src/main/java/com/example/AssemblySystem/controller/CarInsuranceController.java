@@ -1,7 +1,9 @@
 package com.example.AssemblySystem.controller;
 
+import com.example.AssemblySystem.CarInsurance.domain.InsuranceCost;
 import com.example.AssemblySystem.CarInsurance.domain.Payment;
 import com.example.AssemblySystem.CarInsurance.domain.Payout;
+import com.example.AssemblySystem.CarInsurance.repository.InsuranceCostRepository;
 import com.example.AssemblySystem.CarInsurance.repository.PaymentRepository;
 import com.example.AssemblySystem.CarInsurance.repository.PayoutRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,6 +22,8 @@ public class CarInsuranceController {
     private PaymentRepository paymentRepository;
     @Autowired
     private PayoutRepository payoutRepository;
+    @Autowired
+    private InsuranceCostRepository insuranceCostRepository;
 
     @GetMapping
     public String index() {
@@ -44,5 +48,15 @@ public class CarInsuranceController {
         model.addAttribute("payoutList", payoutList);
 
         return "car_insurance/payout";
+    }
+
+    @GetMapping("/insurance-cost")
+    public String showInsuranceCost(
+            Model model
+    ) {
+        List<InsuranceCost> insuranceCostList = this.insuranceCostRepository.findAll();
+        model.addAttribute("insuranceCostList", insuranceCostList);
+
+        return "car_insurance/insurance_cost";
     }
 }
