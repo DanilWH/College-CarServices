@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html>
-    <head>
+<#import "../common/common.ftlh" as common />
 
-    </head>
-    <body>
+<@common.wrapping title="Расходная накладная | Автомобильный рынок">
+
         <h1>Оплата</h1>
 
-        <table>
+        <table class="table table-striped">
             <tr>
                 <th>Id</th>
                 <th>Марка Авто</th>
@@ -22,5 +20,5 @@
                 </tr>
         </#list>
         </table>
-    </body>
-</html>
+
+</@common.wrapping>

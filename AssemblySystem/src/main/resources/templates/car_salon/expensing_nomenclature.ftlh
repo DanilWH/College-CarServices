@@ -1,8 +1,9 @@
 <#import "../common/common.ftlh" as common />
 
 <@common.wrapping title="Расходная накладная | Автомобильный рынок">
+    <h1>Расходная накладная</h1>
 
-    <table>
+    <table class="table table-striped">
         <thead>
         <tr>
             <th>Id</th>
@@ -13,15 +14,15 @@
         </tr>
         </thead>
         <tbody>
-        <#list expensingNomenclatureList as expensingNomenclatureRow>
-        <tr>
-            <td>${expensingNomenclatureRow.id}</td>
-            <td>${expensingNomenclatureRow.getCarBrand()}</td>
-            <td>${expensingNomenclatureRow.getAmount()}</td>
-            <td>${expensingNomenclatureRow.getPrice()}</td>
-            <td>${expensingNomenclatureRow.getTotal()}</td>
-        </tr>
-        </#list>
+            <#list expensingNomenclatureList as expensingNomenclatureRow>
+            <tr>
+                <td>${expensingNomenclatureRow.id}</td>
+                <td>${expensingNomenclatureRow.getCarBrand()}</td>
+                <td>${expensingNomenclatureRow.getAmount()}</td>
+                <td>${expensingNomenclatureRow.getPrice()}</td>
+                <td>${expensingNomenclatureRow.getTotal()}</td>
+            </tr>
+            </#list>
         </tbody>
     </table>
 

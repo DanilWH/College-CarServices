@@ -1,11 +1,10 @@
-<!DOCTYPE html>
-<html>
-    <head>
+<#import "common/common.ftlh" as common />
 
-    </head>
-    <body>
-        <div><a href="/car-insurance">Страховочная компания</a></div>
-        <div><a href="/car-market">Автомобилный рынок</a></div>
-        <div><a href="/car-salon">Автомобильный салон</a></div>
-    </body>
-</html>
+<@common.wrapping title="Расходная накладная | Автомобильный рынок">
+        <div class="list-group">
+                <a href="/car-insurance" class="list-group-item list-group-item-action list-group-item-dark">Страховочная компания</a>
+                <a href="/car-market" class="list-group-item list-group-item-action list-group-item-dark">Автомобилный рынок</a>
+                <a href="/car-salon" class="list-group-item list-group-item-action list-group-item-dark">Автомобильный салон</a>
+        </div>
+
+</@common.wrapping>

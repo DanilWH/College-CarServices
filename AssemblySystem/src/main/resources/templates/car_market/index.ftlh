@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html>
-    <head>
+<#import "../common/common.ftlh" as common />
 
-    </head>
-    <body>
-        <div><a href="/car-market/coming">Приход</a></div>
-        <div><a href="/car-market/sale">Продажа</a></div>
-    </body>
-</html>
+<@common.wrapping title="Расходная накладная | Автомобильный рынок">
+
+        <div class="list-group">
+                <a href="/car-market/coming" class="list-group-item list-group-item-action list-group-item-dark">Приход</a>
+                <a href="/car-market/sale" class="list-group-item list-group-item-action list-group-item-dark">Продажа</a>
+        </div>
+
+</@common.wrapping>
