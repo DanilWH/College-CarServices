@@ -1,4 +1,4 @@
-package com.example.AssemblySystem.domain;
+package com.example.AssemblySystem.CarInsurance.domain;
 
 import javax.persistence.*;
 

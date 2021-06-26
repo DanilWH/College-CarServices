@@ -1,6 +1,6 @@
-package com.example.AssemblySystem.repository;
+package com.example.AssemblySystem.CarInsurance.repository;
 
-import com.example.AssemblySystem.domain.Payment;
+import com.example.AssemblySystem.CarInsurance.domain.Payment;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

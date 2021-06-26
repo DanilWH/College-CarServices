@@ -4,7 +4,8 @@
 
     </head>
     <body>
-        <h3>Выплата</h3>
+        <h1>Выплата</h1>
+
         <table>
             <tr>
                 <th>Id</th>

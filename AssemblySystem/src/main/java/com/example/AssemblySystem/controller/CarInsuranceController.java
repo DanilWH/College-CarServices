@@ -1,9 +1,9 @@
 package com.example.AssemblySystem.controller;
 
-import com.example.AssemblySystem.domain.Payment;
-import com.example.AssemblySystem.domain.Payout;
-import com.example.AssemblySystem.repository.PaymentRepository;
-import com.example.AssemblySystem.repository.PayoutRepository;
+import com.example.AssemblySystem.CarInsurance.domain.Payment;
+import com.example.AssemblySystem.CarInsurance.domain.Payout;
+import com.example.AssemblySystem.CarInsurance.repository.PaymentRepository;
+import com.example.AssemblySystem.CarInsurance.repository.PayoutRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
