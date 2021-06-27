@@ -1,7 +1,8 @@
 <#import "../common/common.ftlh" as common />
 
 <@common.wrapping title="Приходная накладная | Автомойка">
-    <h1>Автомойка</h1>
+
+    <@common.header>Автомойка</@common.header>
 
     <div class="list-group">
         <a href="/car-wash/car-wash-receiving-waybill" class="list-group-item list-group-item-action list-group-item-dark">Приходная накладная</a>

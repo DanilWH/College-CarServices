@@ -2,7 +2,7 @@
 
 <@common.wrapping title="Расходная накладная | Автомобильный рынок">
 
-        <h1>Приход</h1>
+        <@common.header>Приход</@common.header>
 
         <table class="table table-striped">
             <tr>

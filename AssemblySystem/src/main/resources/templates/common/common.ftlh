@@ -30,3 +30,7 @@
     </html>
 
 </#macro>
+
+<#macro header>
+    <h1 class="display-4"><#nested /></h1>
+</#macro>

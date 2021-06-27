@@ -1,8 +1,8 @@
 <#import "../common/common.ftlh" as common />
 
-<@common.wrapping title="">
+<@common.wrapping title="Стоимость страховки | Страховочная компания">
 
-    <h1>Стоимость страховки</h1>
+    <@common.header>Стоимость страховки</@common.header>
 
     <table class="table table-striped">
         <tr>

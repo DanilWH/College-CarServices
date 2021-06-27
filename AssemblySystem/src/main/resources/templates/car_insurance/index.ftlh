@@ -1,6 +1,8 @@
 <#import "../common/common.ftlh" as common />
 
-<@common.wrapping title="Расходная накладная | Автомобильный рынок">
+<@common.wrapping title="Главная | Страховочная компания">
+
+    <@common.header>Страховочная компания</@common.header>
 
     <div class="list-group">
         <a href="/car-insurance/payment" class="list-group-item list-group-item-action list-group-item-dark">Оплата</a>
